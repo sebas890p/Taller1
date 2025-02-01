@@ -1,0 +1,21 @@
+## Navegación y Gestión de Archivos:
+```
+pwd                   # Muestra la ruta actual
+ls -la                # Lista todos los archivos, incluyendo ocultos
+cd /ruta/al/directorio  # Cambia al directorio especificado
+mkdir nuevo_directorio  # Crea un nuevo directorio
+```
+
+## Manipulación de Archivos:
+```
+touch nuevo_archivo.txt  # Crea un archivo vacío
+cp archivo.txt copia.txt  # Copia archivo.txt a copia.txt
+mv archivo.txt /ruta/destino/  # Mueve archivo.txt a la ruta destino
+rm archivo.txt  # Elimina archivo.txt
+```
+
+## Búsqueda y Procesos:
+```
+grep "texto" archivo.txt  # Busca "texto" dentro de archivo.txt
+top  # Muestra procesos en ejecución
+```
